@@ -2,8 +2,8 @@ export async function GET() {
     const tickets = [
         {
             id: 't-1001',
-            title: 
-            description:
+            title: 'Account locked out',
+            description: 'Guessed password too many times and account locked',
             priority: 'High',
             status: 'Open',
             assignee: 'Peter',
@@ -11,26 +11,26 @@ export async function GET() {
         },
         {
             id: 't-1002',
-            title:
-            description:
-            priority: 'Medium',
+            title: 'Scheduled maintenance on website',
+            description: 'Fixing bugs and updating, unable to use for short time',
+            priority: 'Low',
             status: 'In Progress',
             assignee: 'John',
             updatedAt: '2025-11-02T18:33:00Z'
         },
         {
             id: 't-1003',
-            title:
-            description:
+            title: 'Device setup',
+            description: 'New laptop for work needs to be connected and setup',
             priority: 'Low',
-            status: 'On Hold',
+            status: 'In Progress',
             assignee: 'Dan',
             updatedAt: '2025-11-03T20:05:00Z'
         },
         {
             id: 't-1004',
-            title:
-            description:
+            title: 'Virus',
+            description: 'Computer has virus and unable to operate',
             priority: 'Critical',
             status: 'Resolved',
             assignee: 'Mario',
@@ -38,8 +38,8 @@ export async function GET() {
         },
         {
             id: 't-1005',
-            title:
-            description:
+            title: 'Invoice has incorrect calculations',
+            description: 'Some invoices are showing errors and overpricing',
             priority: 'Critical',
             status: 'On Hold',
             assignee: 'Jillian',
@@ -47,17 +47,17 @@ export async function GET() {
         },
         {
             id: 't-1006',
-            title:
-            description:
+            title: 'Slow response and load times',
+            description: 'Page takes about 5 seconds to load',
             priority: 'Medium',
-            status: 'In Progress',
+            status: 'Open',
             assignee: 'Sarah',
             updatedAt: '2025-11-06T11:35:00Z'
         },
         {
             id: 't-1007',
-            title:
-            description:
+            title: 'Login page not loading',
+            description: 'Blank screen appearing instead of homepage',
             priority: 'Critical',
             status: 'Open',
             assignee: 'Unassigned',
@@ -74,8 +74,8 @@ export async function GET() {
         },
         {
             id: 't-1009',
-            title:
-            description:
+            title: 'Credentials expired',
+            description: 'Need new sign in with 2FA',
             priority: 'Medium',
             status: 'In Progress',
             assignee: 'George',
