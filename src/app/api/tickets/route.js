@@ -65,8 +65,8 @@ export async function GET() {
         },
         {
             id: 't-1008',
-            title:
-            description:
+            title: 'Wifi router is powered off',
+            description: 'Troubleshoot wires and cause',
             priority: 'Low',
             status: 'Open',
             assignee: 'Mike',
@@ -83,8 +83,8 @@ export async function GET() {
         },
         {
             id: 't-1010',
-            title:
-            description:
+            title: 'Weak Password',
+            description: 'Password is just common word and can be compromised',
             priority: 'High',
             status: 'Resolved',
             assignee: 'Matt',
@@ -92,8 +92,8 @@ export async function GET() {
         },
         {
             id: 't-1011',
-            title:
-            description:
+            title: 'Wifi unstable',
+            description: 'Unable to work and stream videos',
             priority: 'Medium',
             status: 'Open',
             assignee: 'Unassigned',
@@ -101,8 +101,8 @@ export async function GET() {
         },
         {
             id: 't-1012',
-            title:
-            description:
+            title: 'Battery life',
+            description: 'Battery does not charge to 100%',
             priority: 'Low',
             status: 'Resolved',
             assignee: 'Tony',
