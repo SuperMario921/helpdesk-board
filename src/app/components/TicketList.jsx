@@ -9,7 +9,7 @@ export default function TicketList({ tickets, queue, onAddToQueue }) {
                 <TicketCard
                     key={ticket.id}
                     ticket={ticket}
-                    inQueue={!!queue(ticket.id)}
+                    inQueue={!!queue[ticket.id]}
                 />
             ))}
         </div>
